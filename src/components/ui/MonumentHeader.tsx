@@ -47,6 +47,12 @@ export function MonumentHeader({
               <X className="size-4" aria-hidden />
             </button>
             <p className="pr-6">{monument.globalSummary}</p>
+            <p className="mt-3 text-xs leading-relaxed text-slate-400">
+              Sources : plans de la Bastille et « Nouveau plan routier de la Ville et Faubourgs de
+              Paris » (Pichon, 1789), Bibliothèque nationale de France, département Cartes et
+              plans, via Gallica (gallica.bnf.fr). Reconstitution schématique : ce site n’est pas
+              affilié à la BnF.
+            </p>
             <p className="mt-3 text-xs text-slate-500">
               Glisser : orbiter · molette : zoom · clic droit : déplacer · ←/→ : changer d’époque ·
               Échap : désélectionner.
